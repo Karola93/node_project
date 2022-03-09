@@ -3,7 +3,7 @@ const scrypt= promisify(require('crypto').scrypt);
 const randomBytes= promisify(require('crypto').randomBytes);
 const {createCipheriv}= require('crypto');
 const {readFile, appendFile, writeFile}= require('fs').promises;
-const{hash}= require ('../../tydz3/kryptogragia/all');
+const{hash}= require ('./all');
 const {ENCRYPTION_SALT, HASH_SALT}= require('./constant');
 
 

@@ -6,7 +6,7 @@
 //     - nadpisze on ten plik
 
 const {readFile, writeFile}= require('fs').promises;
-const{decryptText, hash}= require ('../../tydz3/kryptogragia/all');
+const{decryptText, hash}= require ('./all');
 const {ENCRYPTION_SALT, HASH_SALT}= require('constant');
 
 const [,,userFileName,userPassword]= process.argv;
