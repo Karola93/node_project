@@ -1,3 +1,8 @@
+// 1. Stwórz program, który:
+//     - przyjmuje w linii komend inf. o nazwie pliku i haśle
+//     - nadpisuje on plik tekstowy, który wskazaliśmy, zapisuje
+//     do niego zaszyfrowane dane (użyj soli)
+
 const {promisify} = require ('util');
 const scrypt= promisify(require('crypto').scrypt);
 const randomBytes= promisify(require('crypto').randomBytes);
