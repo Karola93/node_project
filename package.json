@@ -1,0 +1,24 @@
+
+{
+  "name": "projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "project/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chokidar": "^3.5.3",
+    "node": "^12.22.10",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1"
+  }
+}
